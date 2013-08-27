@@ -3,7 +3,9 @@
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"require": {
-		"laravel/framework": "4.0.*"
+		"laravel/framework": "4.0.*",
+		"guzzle/guzzle": "dev-hotfix/response-xml-visitor-internals",
+		"symfony/dom-crawler": "2.4.*@dev"
 	},
 	"autoload": {
 		"classmap": [

@@ -15,3 +15,5 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('/live-trains/{from}/{to}/{when}', 'TrainTimesController@getTrainTimes');
